@@ -10,7 +10,7 @@
 int OnInit()
   {
 //--- create timer
-   EventSetTimer(60);
+   EventSetTimer(1);
    
 //---
    return(INIT_SUCCEEDED);
