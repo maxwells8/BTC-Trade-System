@@ -30,3 +30,20 @@
 *.exe
 *.out
 *.app
+
+# MQL5
+*.ex5
+Logs
+Presets
+Files
+Libraries
+Profiles
+Images
+Shared Projects
+Projects
+*.dat
+*.ex4
+/Scripts/MySQL/SQLite/*.sqlite
+*.content
+*.index
+/Scripts/Examples/DLL/*
