@@ -1,11 +1,17 @@
 //+------------------------------------------------------------------+
 //|                                                    BTC-Trade.mq5 |
-//|                                  Copyright 2021, MetaQuotes Ltd. |
-//|                                             https://www.mql5.com |
 //+------------------------------------------------------------------+
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
 //+------------------------------------------------------------------+
+#property strict
+
+#include <Trade\Trade.mqh>
+#include <Trade\SymbolInfo.mqh>
+
+CTrade               m_trade;
+CSymbolInfo          m_symbol;
+CPositionInfo        m_position;
 
 int OnInit()
   {
@@ -30,6 +36,8 @@ void OnDeinit(const int reason)
 void OnTick()
   {
 //---
+
+   
    
   }
 //+------------------------------------------------------------------+
